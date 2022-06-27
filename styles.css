@@ -1,1 +1,169 @@
+@font-face {
+    src: url(fonts/NeonClubMusic/NEON\ CLUB\ MUSIC.otf);
+    font-family: Neon;
+
+}
+* {
+    box-sizing: border-box;
+
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    color: #e6007e;
+    background-color:#1D1E2C;
+
+}
+
+.mainContainer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.leftContainer {
+    background-image: url(images/photo-1617827492080-d99e589d9e0e.avif);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height:100%;
+
+}
+
+.itemsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.8);
+    width:100%;
+    height: 20%;
+    position: relative;
+    top: 25rem;
+ }
+
+.logoContainer {
+    position: relative;
+    top: 3px;
+    left: 50px;
+
+}
+
+.logo {
+    width: 50%;
+    height: 50%;
+}
+
+
+.textContainer {
+    color:#e6007e;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: Neon;
+    position: relative;
+    right: 100px;
+    top:10px;
+
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4rem;
+    gap: 3rem;
+
+}
+
+.form {
+    color: #e6007e;
+    box-shadow: none;
+    
+}
+
+.h3Container {
+    display: flex;
+    flex-direction: row;
+}
+
+.logIn {
+    position: relative;
+    top: 20px;
+    left: 5px;
+    color: #8900FF;
+    font-weight: bold;
+}
+
+.divide {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+input {
+    width:25rem;
+    background-color: #1D1E2C;
+    box-shadow: none;
+    border: 0.5px solid black;
+    color:  #8900FF;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #1D1E2C inset !important;
+  -webkit-text-fill-color: #8900FF !important;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 2px solid #8900FF;
+}
+
+ 
+  input:valid {
+    border-bottom: 0.5px solid green ;
+  }
+
+
+
+.btn {
+  background-color: #e6007e;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #1D1E2C;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  height: 60px;
+  width: 250px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  left: 294px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #8900FF;
+}
+
 
