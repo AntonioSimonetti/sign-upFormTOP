@@ -1,4 +1,4 @@
-**Project: sign up fomr**
+**Project: sign up form**
 
 *Signup form created for The Odin Project curriculum.*
 
